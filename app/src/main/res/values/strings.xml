@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">chakra</string>
+    <string name="text_here_we_go">Here we go</string>
+    <string name="text_great_you_are_now_member_of_chakra_rewards">Great you are now member of Chakra rewards</string>
+    <string name="text_explore_brand">Explore brand</string>
+    <string name="text_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</string>
+    <string name="text_collect_poin">Collect poin</string>
+    <string name="text_redeem_special_gift">Redeem special gift</string>
+    <string name="text_explore_chakra">Explore Chakra</string>
+    <string name="cd_icon">icon</string>
+
+</resources>
