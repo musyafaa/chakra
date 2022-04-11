@@ -13,6 +13,7 @@
     <color name="color_blue50">#08C0FF</color>
     <color name="color_white">#FAFAFA</color>
     <color name="color_black">#121212</color>
+    <color name="color_cmyk">#80121212</color>
 
     <color name="color_gray1">#F1F2F6</color>
     <color name="color_gray2">#DEDEDE</color>
