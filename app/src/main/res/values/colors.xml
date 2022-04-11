@@ -9,21 +9,21 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- REVAMP APPS COLORS -->
-    <!-- Primary-->
-    <color name="color_blue50">#08C0FF</color>
-    <color name="color_white">#FAFAFA</color>
-    <color name="color_black">#121212</color>
+        <!-- Primary-->
+        <color name="color_blue50">#08C0FF</color>
+        <color name="color_white">#FAFAFA</color>
+        <color name="color_black">#121212</color>
 
-    <color name="color_gray1">#F1F2F6</color>
-    <color name="color_gray2">#DEDEDE</color>
-    <color name="color_gray3">#B3B3B3</color>
-    <color name="color_gray4">#404852</color>
+        <color name="color_gray1">#F1F2F6</color>
+        <color name="color_gray2">#DEDEDE</color>
+        <color name="color_gray3">#B3B3B3</color>
+        <color name="color_gray4">#404852</color>
 
-    <color name="color_transparent">#00000000</color>
+        <color name="color_transparent">#00000000</color>
 
-    <!-- SECONDARY-->
-    <color name="color_blue60">#0094C7</color>
-    <color name="color_blue40">#B3EBFF</color>
+        <!-- SECONDARY-->
+        <color name="color_blue60">#0094C7</color>
+        <color name="color_blue40">#B3EBFF</color>
 
 
 </resources>
