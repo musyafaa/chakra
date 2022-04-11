@@ -39,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_smaller"
         android:gravity="center"
+        android:fontFamily="@font/monreguler"
         android:text="@string/text_tap_here"
         app:layout_constraintEnd_toEndOf="@+id/yt_wishlist"
         app:layout_constraintStart_toStartOf="@+id/yt_wishlist"
