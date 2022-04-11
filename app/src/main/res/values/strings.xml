@@ -8,5 +8,12 @@
     <string name="text_redeem_special_gift">Redeem special gift</string>
     <string name="text_explore_chakra">Explore Chakra</string>
     <string name="cd_icon">icon</string>
+    <string name="yey_uploaded_successfully">Yey, Receipt has been uploaded successfully and is being verified</string>
+    <string name="you_are_heading">You are heading towards to earn more points. We will notice you shortly</string>
+    <string name="_9_juni_2021_5_08_pm">9 Juni 2021 5:08 PM</string>
+    <string name="ocr_2021300512331">OCR-2021300512331</string>
+    <string name="see_top_up_history">See Top Up History</string>
+    <string name="back_to_card">Back to Card</string>
+    <string name="transaction_number">Transaction Number</string>
 
 </resources>
