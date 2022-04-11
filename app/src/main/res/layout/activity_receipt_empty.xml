@@ -106,34 +106,34 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_regular"
-        android:layout_marginTop="@dimen/spacing_giant_two"
         android:layout_marginEnd="@dimen/spacing_regular"
+        android:layout_marginBottom="@dimen/spacing_normal_quarter"
         android:background="@drawable/custom_btn_explore"
         android:fontFamily="@font/monbold"
         android:text="@string/see_top_up_history"
-        android:textSize="@dimen/font_regular"
         android:textAllCaps="false"
         android:textColor="@color/white"
+        android:textSize="@dimen/font_regular"
+        app:layout_constraintBottom_toTopOf="@+id/bottom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ocr_2021300"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bottom"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_regular"
-        android:layout_marginTop="@dimen/spacing_normal_quarter"
         android:layout_marginEnd="@dimen/spacing_regular"
-        android:background="@drawable/custom_btn"
+        android:layout_marginBottom="@dimen/spacing_huge_slight"
+        android:background="@drawable/custom_btn_outline"
         android:fontFamily="@font/monbold"
         android:text="@string/back_to_card"
         android:textAllCaps="false"
         android:textColor="@color/color_blue50"
         android:textSize="@dimen/font_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

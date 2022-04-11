@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chakra">
         <activity
-            android:name=".wishlist_empty"
+            android:name=".receipt_empty"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
