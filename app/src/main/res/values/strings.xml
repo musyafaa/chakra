@@ -16,8 +16,8 @@
     <string name="back_to_card">Back to Card</string>
     <string name="transaction_number">Transaction Number</string>
     <string name="text_img_box">text_img_box</string>
-    <string name="text_your_wishlist_is_empty">Your Wishlist is Empty</string>
-    <string name="text_tap_here">tap heart button to start saving your favorite item</string>
-    <string name="text_find_product">Find Product"</string>
+    <string name="text_your_wishlist_is_empty">text_your_wishlist_is_empty</string>
+    <string name="text_tap_here">text_tap_here</string>
+    <string name="text_find_product">text_find_product\"</string>
 
 </resources>
