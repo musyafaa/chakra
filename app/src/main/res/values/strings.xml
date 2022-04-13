@@ -10,7 +10,7 @@
     <string name="cd_icon">icon</string>
     <string name="yey_uploaded_successfully">Yey, Receipt has been uploaded successfully and is being verified</string>
     <string name="you_are_heading">You are heading towards to earn more points. We will notice you shortly</string>
-    <string name="_9_juni_2021_5_08_pm">9 Juni 2021 5:08 PM</string>
+    <string name="_9_juni_2021">9 Juni 2021 5:08 PM</string>
     <string name="ocr_2021300512331">OCR-2021300512331</string>
     <string name="see_top_up_history">See Top Up History</string>
     <string name="back_to_card">Back to Card</string>
@@ -19,5 +19,9 @@
     <string name="text_your_wishlist_is_empty">text_your_wishlist_is_empty</string>
     <string name="text_tap_here">text_tap_here</string>
     <string name="text_find_product">text_find_product\"</string>
+    <string name="tv_your_wishlist_is_empty">Your Wishlist is Empty</string>
+    <string name="tv_tap_heart_button_to_start_saving_your_favorite_item">tap heart button to start saving your favorite item</string>
+    <string name="tv_find_product">Find Product</string>
+    <string name="tv_time">5:08 PM</string>
 
 </resources>

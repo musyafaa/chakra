@@ -21,10 +21,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_receipt"
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_receipt"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_large"
         android:fontFamily="@font/monbold"
         android:textColor="@color/black"
         android:textSize="@dimen/font_title_content"
@@ -35,45 +37,49 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/you_are"
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_you_are"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_large_med"
+        android:layout_marginEnd="@dimen/spacing_large_med"
         android:text="@string/you_are_heading"
         android:textSize="@dimen/font_regular"
-        android:fontFamily="@font/monbold"
+        android:fontFamily="@font/monreguler"
         android:textColor="@color/color_gray4"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/text_receipt"
-        app:layout_constraintStart_toEndOf="@+id/text_receipt"
-        app:layout_constraintStart_toStartOf="@+id/text_receipt"
-        app:layout_constraintTop_toBottomOf="@+id/text_receipt" />
+        app:layout_constraintEnd_toEndOf="@+id/tv_receipt"
+        app:layout_constraintStart_toEndOf="@+id/tv_receipt"
+        app:layout_constraintStart_toStartOf="@+id/tv_receipt"
+        app:layout_constraintTop_toBottomOf="@+id/tv_receipt" />
+
 
     <ImageView
-        android:id="@+id/line_70"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/spacing_smaller"
+        android:id="@+id/img_dotted"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
         android:layout_marginTop="@dimen/spacing_large"
-        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:layerType="software"
+        android:src="@drawable/custom_dotted"
         android:contentDescription="@string/cd_icon"
-        android:src="@drawable/line_70"
-        app:layout_constraintEnd_toEndOf="@+id/you_are"
-        app:layout_constraintStart_toStartOf="@+id/you_are"
-        app:layout_constraintTop_toBottomOf="@+id/you_are" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_you_are" />
 
     <TextView
-        android:id="@+id/text_time"
+        android:id="@+id/tv_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_large"
-        android:text="@string/_9_juni_2021_5_08_pm"
-        android:fontFamily="@font/monbold"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/_9_juni_2021"
         android:textColor="@color/black"
         android:textSize="@dimen/font_small"
-        app:layout_constraintEnd_toEndOf="@+id/line_70"
-        app:layout_constraintStart_toStartOf="@+id/line_70"
-        app:layout_constraintTop_toBottomOf="@+id/line_70" />
+        app:layout_constraintEnd_toEndOf="@+id/img_dotted"
+        app:layout_constraintStart_toStartOf="@+id/img_dotted"
+        app:layout_constraintTop_toBottomOf="@+id/img_dotted" />
 
     <TextView
         android:id="@+id/text_transaction"
@@ -84,9 +90,9 @@
         android:fontFamily="@font/monbold"
         android:textColor="@color/color_cmyk"
         android:textSize="@dimen/font_small"
-        app:layout_constraintEnd_toEndOf="@+id/text_time"
-        app:layout_constraintStart_toStartOf="@+id/text_time"
-        app:layout_constraintTop_toBottomOf="@+id/text_time" />
+        app:layout_constraintEnd_toEndOf="@+id/tv_date"
+        app:layout_constraintStart_toStartOf="@+id/tv_date"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
 
     <TextView
         android:id="@+id/ocr_2021300"
