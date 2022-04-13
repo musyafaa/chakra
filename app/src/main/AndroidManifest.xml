@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chakra">
         <activity
-            android:name=".receipt_empty"
+            android:name=".ReceiptEmptyActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".CartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

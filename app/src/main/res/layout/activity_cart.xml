@@ -6,4 +6,390 @@
     android:layout_height="match_parent"
     tools:context=".CartActivity">
 
+    <ImageView
+        android:id="@+id/img_teflon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/teflon" />
+
+    <TextView
+        android:id="@+id/tv_grill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/text_grill_pan_jumbo_new"
+        android:textColor="@color/color_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_teflon"
+        app:layout_constraintTop_toTopOf="@+id/img_teflon" />
+
+    <TextView
+        android:id="@+id/tv_points"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_point"
+        android:textColor="@color/color_blue50"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintBottom_toBottomOf="@+id/img_teflon"
+        app:layout_constraintEnd_toEndOf="@+id/tv_grill"
+        app:layout_constraintStart_toStartOf="@+id/tv_grill"
+        app:layout_constraintTop_toBottomOf="@+id/tv_grill" />
+
+    <TextView
+        android:id="@+id/tv_wishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_quarter"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_move"
+        android:textColor="@color/color_cmyk"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toStartOf="@id/img_lineup"
+        app:layout_constraintStart_toStartOf="@+id/img_teflon"
+        app:layout_constraintTop_toBottomOf="@+id/img_teflon" />
+
+    <ImageView
+        android:id="@+id/img_lineup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_quarter"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_wishlist"
+        app:layout_constraintStart_toEndOf="@+id/tv_wishlist"
+        app:layout_constraintTop_toTopOf="@+id/tv_wishlist"
+        app:srcCompat="@drawable/line_up" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_quarter"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/img_lineup"
+        app:layout_constraintStart_toEndOf="@+id/img_lineup"
+        app:layout_constraintTop_toTopOf="@+id/img_lineup"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/subtract"
+        app:layout_constraintBottom_toBottomOf="@+id/img_number"
+        app:layout_constraintEnd_toStartOf="@+id/img_number"
+        app:layout_constraintTop_toTopOf="@+id/img_number" />
+
+    <ImageView
+        android:id="@+id/img_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/number"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_add"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_add"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_add" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/add"
+        app:layout_constraintEnd_toEndOf="@+id/tv_points"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintTop_toBottomOf="@+id/tv_points" />
+
+    <ImageView
+        android:id="@+id/img_line"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_add"
+        app:layout_constraintStart_toStartOf="@+id/tv_wishlist"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/line" />
+
+
+    <ImageView
+        android:id="@+id/img_steam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintStart_toStartOf="@+id/img_line"
+        app:layout_constraintTop_toBottomOf="@+id/img_line"
+        app:srcCompat="@drawable/steam" />
+
+    <TextView
+        android:id="@+id/tv_handy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/text_handy_steamer"
+        android:textColor="@color/color_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_steam"
+        app:layout_constraintTop_toTopOf="@+id/img_steam" />
+
+    <TextView
+        android:id="@+id/tv_points1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text__60_000_points"
+        android:textColor="@color/color_blue50"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintBottom_toBottomOf="@+id/img_steam"
+        app:layout_constraintEnd_toEndOf="@+id/tv_handy"
+        app:layout_constraintStart_toStartOf="@+id/tv_handy"
+        app:layout_constraintTop_toBottomOf="@+id/tv_handy" />
+
+    <TextView
+        android:id="@+id/tv_wishlist2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_quarter"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_move"
+        android:textColor="@color/color_cmyk"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toStartOf="@id/img_lineup1"
+        app:layout_constraintStart_toStartOf="@+id/img_steam"
+        app:layout_constraintTop_toBottomOf="@+id/img_steam" />
+
+    <ImageView
+        android:id="@+id/img_lineup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_quarter"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_wishlist2"
+        app:layout_constraintStart_toEndOf="@+id/tv_wishlist2"
+        app:layout_constraintTop_toTopOf="@+id/tv_wishlist2"
+        app:srcCompat="@drawable/line_up" />
+
+    <ImageView
+        android:id="@+id/img_trash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_quarter"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/img_lineup1"
+        app:layout_constraintStart_toEndOf="@+id/img_lineup1"
+        app:layout_constraintTop_toTopOf="@+id/img_lineup1"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/img_btn_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/subtract"
+        app:layout_constraintBottom_toBottomOf="@+id/img_number1"
+        app:layout_constraintEnd_toStartOf="@+id/img_number1"
+        app:layout_constraintTop_toTopOf="@+id/img_number1" />
+
+    <ImageView
+        android:id="@+id/img_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/number"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_add1"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_add1"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_add1" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/add"
+        app:layout_constraintEnd_toEndOf="@+id/tv_points1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintTop_toBottomOf="@+id/tv_points1" />
+
+    <ImageView
+        android:id="@+id/img_line1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_add1"
+        app:layout_constraintStart_toStartOf="@+id/tv_wishlist2"
+        app:layout_constraintTop_toBottomOf="@+id/img_trash"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/img_voucher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintStart_toStartOf="@+id/img_line1"
+        app:layout_constraintTop_toBottomOf="@+id/img_line1"
+        app:srcCompat="@drawable/voucher" />
+
+    <TextView
+        android:id="@+id/tv_voucher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/text_voucher_digital_kalcare_com_50_000"
+        android:textColor="@color/color_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_voucher"
+        app:layout_constraintTop_toTopOf="@+id/img_voucher" />
+
+    <TextView
+        android:id="@+id/tv_points2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_point"
+        android:textColor="@color/color_blue50"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintBottom_toBottomOf="@+id/img_voucher"
+        app:layout_constraintEnd_toEndOf="@+id/tv_voucher"
+        app:layout_constraintStart_toStartOf="@+id/tv_voucher"
+        app:layout_constraintTop_toBottomOf="@+id/tv_voucher" />
+
+    <TextView
+        android:id="@+id/tv_wishlist3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal_quarter"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_move"
+        android:textColor="@color/color_cmyk"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toStartOf="@id/img_lineup2"
+        app:layout_constraintStart_toStartOf="@+id/img_voucher"
+        app:layout_constraintTop_toBottomOf="@+id/img_voucher" />
+
+    <ImageView
+        android:id="@+id/img_lineup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_quarter"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_wishlist3"
+        app:layout_constraintStart_toEndOf="@+id/tv_wishlist3"
+        app:layout_constraintTop_toTopOf="@+id/tv_wishlist3"
+        app:srcCompat="@drawable/line_up" />
+
+    <ImageView
+        android:id="@+id/img_trash1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_quarter"
+        android:contentDescription="@string/text_img_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/img_lineup2"
+        app:layout_constraintStart_toEndOf="@+id/img_lineup2"
+        app:layout_constraintTop_toTopOf="@+id/img_lineup2"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/img_btn_min1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/subtract"
+        app:layout_constraintBottom_toBottomOf="@+id/img_number2"
+        app:layout_constraintEnd_toStartOf="@+id/img_number2"
+        app:layout_constraintTop_toTopOf="@+id/img_number2" />
+
+    <ImageView
+        android:id="@+id/img_number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/number"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_add2"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_add2"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_add2" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/text_img_cart"
+        android:src="@drawable/add"
+        app:layout_constraintEnd_toEndOf="@+id/tv_points1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintTop_toBottomOf="@+id/tv_points2" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/text_total_points"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_large_one"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintStart_toStartOf="@+id/btn_next" />
+
+    <TextView
+        android:id="@+id/tv_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/number_160_000"
+        android:textColor="@color/color_blue50"
+        android:textSize="@dimen/font_large_one"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="@+id/btn_next" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_large"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:background="@drawable/custom_btn_next"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_next"
+        android:textAllCaps="false"
+        android:textColor="@color/color_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

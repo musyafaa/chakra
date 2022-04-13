@@ -10,7 +10,7 @@
     <string name="cd_icon">icon</string>
     <string name="yey_uploaded_successfully">Yey, Receipt has been uploaded successfully and is being verified</string>
     <string name="you_are_heading">You are heading towards to earn more points. We will notice you shortly</string>
-    <string name="_9_juni_2021_5_08_pm">9 Juni 2021 5:08 PM</string>
+    <string name="text_9_juni_2021_5_08_pm">9 Juni 2021 5:08 PM</string>
     <string name="ocr_2021300512331">OCR-2021300512331</string>
     <string name="see_top_up_history">See Top Up History</string>
     <string name="back_to_card">Back to Card</string>
@@ -19,5 +19,15 @@
     <string name="text_your_wishlist_is_empty">Your Wishlist is Empty</string>
     <string name="text_tap_here">tap heart button to start saving your favorite item</string>
     <string name="text_find_product">Find Product"</string>
+    <string name="text_move">Move to Wishlist</string>
+    <string name="text_point">50.000 Points</string>
+    <string name="text_grill_pan_jumbo_new">Grill Pan Jumbo New</string>
+    <string name="text_img_cart">img_cart</string>
+    <string name="text__60_000_points">60.000 Points</string>
+    <string name="text_handy_steamer">Handy Steamer</string>
+    <string name="text_next">Next</string>
+    <string name="number_160_000">160.000</string>
+    <string name="text_total_points">Total points:</string>
+    <string name="text_voucher_digital_kalcare_com_50_000">Voucher Digital Kalcare.com 50.000</string>
 
 </resources>

@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_large"
         android:fontFamily="@font/monmedium"
-        android:text="@string/_9_juni_2021"
+        android:text="@string/text_9_juni_2021_5_08_pm"
         android:textColor="@color/black"
         android:textSize="@dimen/font_small"
         app:layout_constraintEnd_toEndOf="@+id/img_dotted"
