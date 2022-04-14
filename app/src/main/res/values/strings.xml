@@ -18,10 +18,15 @@
     <string name="text_img_box">text_img_box</string>
     <string name="text_your_wishlist_is_empty">text_your_wishlist_is_empty</string>
     <string name="text_tap_here">text_tap_here</string>
-    <string name="text_find_product">text_find_product\"</string>
+    <string name="text_find_product">text_find_product"</string>
     <string name="tv_your_wishlist_is_empty">Your Wishlist is Empty</string>
     <string name="tv_tap_heart_button_to_start_saving_your_favorite_item">tap heart button to start saving your favorite item</string>
     <string name="tv_find_product">Find Product</string>
     <string name="tv_time">5:08 PM</string>
-
+    <string name="wishlist">Wishlist</string>
+    <string name="search_product_in_wishlist"> Search product in wishlist </string>
+    <string name="grill_pan_jumbonew">Grill Pan Jumbo New</string>
+    <string name="_50_000_points">50,000 Points</string>
+    <string name="redeem_now">Redeem Now</string>
+    <string name="voucher_digital_kalcare_com_50">Voucher Digital Kalcare.com 50...</string>
 </resources>
