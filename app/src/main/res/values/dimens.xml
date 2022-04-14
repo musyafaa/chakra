@@ -6,6 +6,7 @@
     <dimen name="font_title_app_bar">16sp</dimen>
     <dimen name="font_title_content">20sp</dimen>
     <dimen name="font_large">16sp</dimen>
+    <dimen name="font_large_one">15sp</dimen>
     <dimen name="font_regular">14sp</dimen>
     <dimen name="font_small">12sp</dimen>
     <dimen name="font_smaller">10sp</dimen>
@@ -32,6 +33,7 @@
     <dimen name="spacing_huge_slight">56dp</dimen>
     <dimen name="spacing_huge_medium">50dp</dimen>
     <dimen name="spacing_huge">40dp</dimen>
+    <dimen name="spacing_huge_one">50dp</dimen>
     <dimen name="spacing_large">24dp</dimen>
     <dimen name="spacing_large_med">32dp</dimen>
     <dimen name="spacing_regular_med">18dp</dimen>
