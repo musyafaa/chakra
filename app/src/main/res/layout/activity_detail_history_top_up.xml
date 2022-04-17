@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailHistoryTopUpActivity">
+
+
+    <ImageView
+        android:id="@+id/img_rectangle"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/custom_rectangle"
+        android:contentDescription="@string/cd_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_gray3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_rectangle" />
+
+    <TextView
+        android:id="@+id/tv_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/detail_top_up"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_title_app_bar"
+        app:layout_constraintEnd_toEndOf="@+id/img_rectangle"
+        app:layout_constraintStart_toStartOf="@+id/img_rectangle"
+        app:layout_constraintTop_toTopOf="@+id/img_rectangle" />
+
+    <ImageButton
+        android:id="@+id/back_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:background="@color/color_transparent"
+        android:contentDescription="@string/cd_icon"
+        android:src="@drawable/ic_x"
+        app:layout_constraintBottom_toBottomOf="@+id/img_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_rectangle" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:text="@string/topup_date"
+        android:textSize="@dimen/font_small"
+        android:textColor="@color/color_cmyk"
+        android:fontFamily="@font/monreguler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/tv_ocr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monreguler"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:text="@string/ocr_2021300512331"
+        android:textColor="@color/color_cmyk"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+    <TextView
+        android:id="@+id/tv_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monreguler"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:text="@string/channel"
+        android:textColor="@color/color_cmyk"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ocr" />
+
+    <ImageView
+        android:id="@+id/img_dotted"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:layerType="software"
+        android:src="@drawable/custom_dotted"
+        android:contentDescription="@string/cd_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_channel" />
+
+    <TextView
+        android:id="@+id/tv_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_9_juni_2021_5_08_pm"
+        android:textSize="@dimen/font_small"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monmedium"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <TextView
+        android:id="@+id/tv_points3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_10_000_points"
+        android:textSize="@dimen/font_small"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monmedium"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dt"/>
+
+    <TextView
+        android:id="@+id/tv_loyalty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loyalty"
+        android:textSize="@dimen/font_small"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monmedium"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_points3"/>
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:text="@string/detail_info_struck"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monsemibolld"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_dotted" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:layout_marginBottom="@dimen/font_smaller"
+        android:columnCount="1"
+        android:foregroundGravity="center_vertical"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_detail"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="281dp"
+            app:cardCornerRadius="@dimen/spacing_normal_quarter">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/struk"
+                    android:layout_width="156dp"
+                    android:layout_height="251dp"
+                    android:layout_marginStart="@dimen/spacing_smaller"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:src="@drawable/struck"
+                    android:contentDescription="@string/cd_icon" />
+
+                <TextView
+                    android:id="@+id/outlet_name"
+                    android:layout_width="77dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_regular"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/outlet_name"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="36dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_large_top_med"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_indomaret_yos_sudarso_bsd_sm"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_reward_point"
+                    android:layout_width="88dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_giant_one"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/rewards_point"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/points4"
+                    android:layout_width="59dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_giant_three"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_500_point"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_bonus_point"
+                    android:layout_width="74dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_huger_2"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/tv_bonus_point"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/points5"
+                    android:layout_width="59dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_huger_5"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_500_point"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_receipt_data"
+                    android:layout_width="79dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_small"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/tv_receipt_date"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_date_time"
+                    android:layout_width="71dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_small_2"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_10_juni_2021"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="39dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_small_3"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/tv_status"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_approved"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struk"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_more_2"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_approved"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="281dp"
+            app:cardCornerRadius="@dimen/spacing_normal_quarter">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/struks"
+                    android:layout_width="156dp"
+                    android:layout_height="251dp"
+                    android:layout_marginStart="@dimen/spacing_smaller"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:src="@drawable/struck"
+                    android:contentDescription="@string/cd_icon" />
+
+                <TextView
+                    android:id="@+id/outlet_name_2"
+                    android:layout_width="77dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_regular"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/outlet_name"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="36dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_large_top_med"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_indomaret_yos_sudarso_bsd_sm"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_reward_point_2"
+                    android:layout_width="88dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_giant_one"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/rewards_point"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/points_5"
+                    android:layout_width="59dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_giant_three"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_500_point"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_bonus_point_2"
+                    android:layout_width="74dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_huger_2"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/tv_bonus_point"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/points_6"
+                    android:layout_width="59dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_huger_5"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_500_point"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_receipt_data_2"
+                    android:layout_width="79dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_small"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/tv_receipt_date"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_date_time_2"
+                    android:layout_width="71dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_small_2"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_10_juni_2021"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_status_2"
+                    android:layout_width="39dp"
+                    android:layout_height="14dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_small_3"
+                    android:fontFamily="@font/monreguler"
+                    android:text="@string/tv_status"
+                    android:textColor="@color/color_cmyk"
+                    android:textSize="@dimen/font_small" />
+
+                <TextView
+                    android:id="@+id/tv_approved_2"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_alignStart="@id/struks"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/spacing_huger_4"
+                    android:layout_marginTop="@dimen/spacing_big_more_2"
+                    android:fontFamily="@font/monmedium"
+                    android:text="@string/tv_approved"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/img_rectangle_2"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/cd_icon"
+        android:src="@drawable/custom_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:layout_marginBottom="@dimen/spacing_normal_quarter"
+        android:background="@drawable/custom_btn_outline"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/btn_need_help"
+        android:textAllCaps="false"
+        android:textColor="@color/color_blue50"
+        android:textSize="@dimen/font_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

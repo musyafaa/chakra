@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chakra">
         <activity
+            android:name=".DetailHistoryTopUpActivity"
+            android:exported="true" />
+        <activity
             android:name=".WishlistActivity"
             android:exported="true" />
         <activity
