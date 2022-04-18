@@ -112,7 +112,7 @@
         android:layout_marginTop="@dimen/spacing_regular"
         android:layout_marginEnd="@dimen/spacing_regular"
         android:fontFamily="@font/monmedium"
-        android:text="@string/text_password"
+        android:text="@string/text_confirm_password"
         android:textColor="@color/color_black"
         android:textSize="@dimen/font_regular"
         app:layout_constraintEnd_toEndOf="parent"
