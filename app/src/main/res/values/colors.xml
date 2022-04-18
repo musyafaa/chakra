@@ -10,7 +10,7 @@
 
     <!-- REVAMP APPS COLORS -->
     <!-- Primary-->
-    <color name="color_blue50">#08C0FF</color>
+
     <color name="color_white">#FAFAFA</color>
     <color name="color_black">#121212</color>
     <color name="color_cmyk">#80121212</color>
@@ -19,12 +19,14 @@
     <color name="color_gray2">#DEDEDE</color>
     <color name="color_gray3">#B3B3B3</color>
     <color name="color_gray4">#404852</color>
+    <color name="color_gray5">#99E4E4E4</color>
+    <color name="color_gray6">#E4E4E4</color>
 
     <color name="color_transparent">#00000000</color>
 
     <!-- SECONDARY-->
     <color name="color_blue60">#0094C7</color>
     <color name="color_blue40">#B3EBFF</color>
-
+    <color name="color_blue50">#08C0FF</color>
 
 </resources>

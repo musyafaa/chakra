@@ -29,5 +29,14 @@
     <string name="number_160_000">160.000</string>
     <string name="text_total_points">Total points:</string>
     <string name="text_voucher_digital_kalcare_com_50_000">Voucher Digital Kalcare.com 50.000</string>
+    <string name="text_kalcare">kalcare</string>
+    <string name="text_enjoy_membership_benefit">Enjoy membership benefit</string>
+    <string name="text_create_password">Create password</string>
+    <string name="text_create_password_kalbe_family">create your Password for Kalbe Family Loyalty program</string>
+    <string name="text_info">info</string>
+    <string name="text_password">Password</string>
+    <string name="text_agree">By tapping the button below, you agree to our <b>Term &amp; Condition</b> and <b>Privacy Policy</b></string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="text_activate_card">Activate Card</string>
 
 </resources>

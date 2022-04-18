@@ -11,6 +11,9 @@
     <dimen name="font_small">12sp</dimen>
     <dimen name="font_smaller">10sp</dimen>
 
+    <!-- Font Sizes add new-->
+    <dimen name="font_password">13sp</dimen>
+
     <!-- Radius -->
     <dimen name="rad_small">6dp</dimen>
     <dimen name="rad_regular">8dp</dimen>
@@ -22,6 +25,7 @@
     <dimen name="spacing_giant_more">110dp</dimen>
     <dimen name="spacing_giant_two">90dp</dimen>
     <dimen name="spacing_giant">70dp</dimen>
+    <dimen name="spacing_giant_one">80dp</dimen>
     <dimen name="spacing_huge_slight">56dp</dimen>
     <dimen name="spacing_huge">40dp</dimen>
     <dimen name="spacing_huge_one">50dp</dimen>

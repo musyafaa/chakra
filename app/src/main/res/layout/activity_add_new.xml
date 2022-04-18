@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewActivity">
+
+    <ImageView
+        android:id="@+id/img_karcare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_kalcare"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <TextView
+        android:id="@+id/tv_enjoy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monsemibolld"
+        android:text="@string/text_enjoy_membership_benefit"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_title_app_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_karcare" />
+
+    <TextView
+        android:id="@+id/tv_create"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:fontFamily="@font/monreguler"
+        android:text="@string/text_create_password"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_regular"
+        app:layout_constraintEnd_toEndOf="@+id/tv_enjoy"
+        app:layout_constraintStart_toStartOf="@+id/tv_enjoy"
+        app:layout_constraintTop_toBottomOf="@+id/tv_enjoy" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_large_med"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:contentDescription="@string/text_info"
+        android:src="@drawable/ic_info_circle"
+        app:layout_constraintStart_toStartOf="@+id/tv_create"
+        app:layout_constraintTop_toBottomOf="@+id/tv_create" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_smaller"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monreguler"
+        android:text="@string/text_create_password_kalbe_family"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/tv_pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_password"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_info" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:background="@drawable/custom_password"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:fontFamily="@font/monreguler"
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/spacing_regular"
+        android:paddingEnd="@dimen/spacing_regular"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_password"
+        app:layout_constraintEnd_toEndOf="@+id/tv_pass"
+        app:layout_constraintStart_toStartOf="@+id/tv_pass"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pass" />
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_regular"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_password"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_password" />
+
+    <EditText
+        android:id="@+id/edt_confirm_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_smaller"
+        android:background="@drawable/custom_password"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:fontFamily="@font/monreguler"
+        android:hint="@string/text_confirm_password"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/spacing_regular"
+        android:paddingEnd="@dimen/spacing_regular"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/font_password"
+        app:layout_constraintEnd_toEndOf="@+id/tv_confirm"
+        app:layout_constraintStart_toStartOf="@+id/tv_confirm"
+        app:layout_constraintTop_toBottomOf="@+id/tv_confirm" />
+
+    <TextView
+        android:id="@+id/tv_syarat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_giant_one"
+        android:fontFamily="@font/monreguler"
+        android:text="@string/text_agree"
+        android:textColor="@color/color_gray4"
+        android:textSize="@dimen/font_small"
+        app:layout_constraintEnd_toEndOf="@id/edt_confirm_password"
+        app:layout_constraintStart_toStartOf="@+id/edt_confirm_password"
+        app:layout_constraintTop_toBottomOf="@+id/edt_confirm_password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_regular"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_regular"
+        android:background="@drawable/custom_btn_wishlist"
+        android:fontFamily="@font/monmedium"
+        android:text="@string/text_activate_card"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_syarat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
