@@ -3,7 +3,7 @@
 
     <!-- REVAMP APPS DIMENS -->
     <!-- Font Sizes -->
-    <dimen name="font_title_app_bar">16sp</dimen>
+    <dimen name="font_title_app_bar">18sp</dimen>
     <dimen name="font_title_content">20sp</dimen>
     <dimen name="font_large">16sp</dimen>
     <dimen name="font_large_one">15sp</dimen>
@@ -20,17 +20,33 @@
     <dimen name="rad_large">15dp</dimen>
 
     <!-- Spacing Between Two Views -->
+    <dimen name="spacing_big">210dp</dimen>
+    <dimen name="spacing_big_more">240dp</dimen>
+    <dimen name="spacing_big_more_2">250dp</dimen>
+    <dimen name="spacing_big_small_3">230dp</dimen>
+    <dimen name="spacing_big_small_2">200dp</dimen>
+    <dimen name="spacing_big_small">180dp</dimen>
     <dimen name="spacing_huger">120dp</dimen>
+    <dimen name="spacing_huger_2">130dp</dimen>
+    <dimen name="spacing_huger_3">135dp</dimen>
+    <dimen name="spacing_huger_4">165dp</dimen>
+    <dimen name="spacing_huger_5">150dp</dimen>
+    <dimen name="spacing_medium_huger">117dp</dimen>
     <dimen name="spacing_larger">60dp</dimen>
     <dimen name="spacing_giant_more">110dp</dimen>
+    <dimen name="spacing_giant_three">100dp</dimen>
     <dimen name="spacing_giant_two">90dp</dimen>
+    <dimen name="spacing_giant_one">80dp</dimen>
     <dimen name="spacing_giant">70dp</dimen>
     <dimen name="spacing_giant_one">80dp</dimen>
     <dimen name="spacing_huge_slight">56dp</dimen>
+    <dimen name="spacing_huge_medium">50dp</dimen>
     <dimen name="spacing_huge">40dp</dimen>
     <dimen name="spacing_huge_one">50dp</dimen>
     <dimen name="spacing_large">24dp</dimen>
     <dimen name="spacing_large_med">32dp</dimen>
+    <dimen name="spacing_large_top_med">35dp</dimen>
+    <dimen name="spacing_regular_med">18dp</dimen>
     <dimen name="spacing_regular">16dp</dimen>
     <dimen name="spacing_normal_quarter">12dp</dimen>
     <dimen name="spacing_small">10dp</dimen>
